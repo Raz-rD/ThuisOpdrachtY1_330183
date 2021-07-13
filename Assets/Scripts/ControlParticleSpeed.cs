@@ -12,9 +12,10 @@ public class ControlParticleSpeed : MonoBehaviour
         ps = GetComponent<ParticleSystem>();
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
+        //this makes the game visually faster the more points you have (to visually display difficulty levels)
         if (ScoreScript.Score == 5)
         {
             var particleSpeed = ps.main;

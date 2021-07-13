@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class RingMovement : MonoBehaviour
 {
     //This script is purely to make the rings move forward
-    //and destroy it when it hits the player    
+    //and destroy it when it hits the player
 
     Rigidbody Rb;
     public float Force = 20f;
